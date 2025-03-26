@@ -53,7 +53,6 @@ print(result)
 
 Output:
 Hello world
-
 6. swapcase()
 The swapcase() method returns a copy of the string where all uppercase letters are converted to lowercase and all lowercase letters are converted to uppercase.
 
