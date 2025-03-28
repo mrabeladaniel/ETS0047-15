@@ -65,3 +65,35 @@ print(result)
 Output:
 
 hELLO wORLD
+7. str.find()
+str.find() method searches for a specified substring within the string and returns the lowest index where the substring is found. If the substring is not found, it returns -1.
+
+Example:
+
+text = "Hello, welcome to Python!"
+result = text.find("welcome")
+print(result)  
+
+Output:
+ 7  
+ because "welcome" starts at index 7
+
+8. str.index()
+str.index() method is similar to find(), but it raises a ValueError if the substring is not found, instead of returning -1.
+Example:
+
+text = "Hello, welcome to Python!"
+result = text.index("welcome")
+print(result)  
+Output: 
+7, because "welcome" starts at index 7
+
+9. str.startswith()
+ str.startswith() method checks whether the string starts with the specified prefix (substring) and returns True if it does, and False otherwise. It can also take optional start and end parameters to check a specific portion of the string.
+ Example:
+ text = "Hello, welcome to Python!"
+result = text.startswith("Hello")
+print(result)  
+ Output:
+  True, because the string starts with "Hello"
+
