@@ -1,35 +1,22 @@
-#1. upper()
-#The upper() method converts all characters in a string to uppercase.
-
+#13. str.lstrip([chars])
+#Removes leading (left-side) whitespace or specified characters from the string.
 #Example:
+s = "  hello  "
+print(s.lstrip())
 
-text = "hello world"
-result = text.upper()
-print(result)
-#Output:
-
-
-# HELLO WORLD
-#2. lower()
-#The lower() method converts all characters in a string to lowercase.
-
+  # Output: "hello  "
+#14. str.rstrip([chars])
+#Removes trailing (right-side) whitespace or specified characters from the string.
 #Example:
+s = "  hello  "
+print(s.rstrip())  
+# Output: "  hello"
 
-
-text = "HELLO WORLD"
-result = text.lower()
-print(result)
-#Output:
-#hello world
-
-#3. replace()
-#The replace() method replaces a specified substring with another substring in the string.
-
+#15.str.split([sep, maxsplit])
+#Splits the string into a list of substrings based on the given separator (sep).
+#If no separator is provided, it splits by whitespace.
+#maxsplit specifies the maximum number of splits.
 #Example:
-
-text = "I like cats"
-result = text.replace("cats", "dogs")
-print(result)
-
-#Output:
-#I like dogs
+s = "hello world python"
+print(s.split()) 
+ # Output: ['hello', 'world', 'python']
