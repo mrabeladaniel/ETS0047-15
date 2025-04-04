@@ -118,3 +118,4 @@ Returns True if all characters in the string are lowercase and there is at least
 
 str.isupper()
 Returns True if all characters in the string are uppercase and there is at least one character.
+
