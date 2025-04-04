@@ -24,3 +24,4 @@ print("123".isupper())  # False (no letters)
 print("HELLO!".isupper())  # True (non-letter characters are ignored)
 print("".isupper())  # False (empty string)
 
+ 
