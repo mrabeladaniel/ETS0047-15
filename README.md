@@ -96,7 +96,25 @@ print(result)
  Output:
   True, because the string starts with "Hello"
 
+
 <<<<<<< HEAD
 =======
 
 >>>>>>> 34278b5c930089ce81e39a9e769bf06b2efb431f
+
+str.encode(encoding='utf-8', errors='strict')
+Converts a string into a bytes object using the specified encoding.
+
+Default encoding is UTF-8.
+
+Common error handling strategies:
+
+'strict' (default) → Raises an error for invalid characters.
+
+'ignore' → Ignores characters that can't be encoded.
+
+str.islower()
+Returns True if all characters in the string are lowercase and there is at least one character.
+
+str.isupper()
+Returns True if all characters in the string are uppercase and there is at least one character.
