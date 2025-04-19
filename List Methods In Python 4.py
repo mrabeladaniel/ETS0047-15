@@ -14,7 +14,6 @@ numbers.sort()
 print(numbers)
 # Output: 
 #[1, 2, 3, 5, 9]
-
 numbers.sort(reverse=True)
 print(numbers)
 # Output: 
